@@ -13,7 +13,7 @@ format:
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-**Author:** Toumas  
+**Author:** Toumas
 **Course:** Web Technologies
 
 ---
@@ -24,15 +24,15 @@ GitHub Pages is a free hosting service that allows you to publish static website
 
 ### Features
 
-- Free hosting  
-- HTTPS enabled  
-- GitHub integration  
+- Free hosting
+- HTTPS enabled
+- GitHub integration
 - Custom domains
 
 ### Why Use GitHub Pages?
 
-- No server configuration  
-- Perfect for static websites  
+- No server configuration
+- Perfect for static websites
 - Ideal for student projects
 
 ---
@@ -43,9 +43,9 @@ Reveal.js is a JavaScript framework for creating presentations using HTML and Ma
 
 ### Advantages
 
-- Browser-based  
-- Keyboard navigation  
-- Supports Markdown  
+- Browser-based
+- Keyboard navigation
+- Supports Markdown
 - Highly customizable
 
 ![Reveal.js](https://revealjs.com/images/logo/reveal-black-text.svg)
@@ -72,9 +72,9 @@ Jekyll is a static site generator used by GitHub Pages.
 
 ### Benefits
 
-- No database required  
-- Markdown support  
-- Layouts & themes  
+- No database required
+- Markdown support
+- Layouts & themes
 - Fast loading
 
 ---
@@ -94,10 +94,10 @@ Jekyll is a static site generator used by GitHub Pages.
 
 This project demonstrates:
 
-- Reveal.js usage  
-- Markdown-based slides  
-- GitHub Pages deployment  
-- Horizontal & vertical navigation  
+- Reveal.js usage
+- Markdown-based slides
+- GitHub Pages deployment
+- Horizontal & vertical navigation
 - Non-default theme
 
 **Thank you!**
