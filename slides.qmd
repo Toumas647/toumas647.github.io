@@ -1,0 +1,103 @@
+---
+title: "GitHub Pages & Jekyll Presentation"
+format:
+  revealjs:
+    theme: moon        # Change to any Reveal.js theme you like
+    slide-number: true
+    center: true
+    controls: true
+    progress: true
+---
+
+## GitHub Pages & Jekyll
+
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+**Author:** Toumas  
+**Course:** Web Technologies
+
+---
+
+## What is GitHub Pages?
+
+GitHub Pages is a free hosting service that allows you to publish static websites directly from a GitHub repository.
+
+### Features
+
+- Free hosting  
+- HTTPS enabled  
+- GitHub integration  
+- Custom domains
+
+### Why Use GitHub Pages?
+
+- No server configuration  
+- Perfect for static websites  
+- Ideal for student projects
+
+---
+
+## What is Reveal.js?
+
+Reveal.js is a JavaScript framework for creating presentations using HTML and Markdown.
+
+### Advantages
+
+- Browser-based  
+- Keyboard navigation  
+- Supports Markdown  
+- Highly customizable
+
+![Reveal.js](https://revealjs.com/images/logo/reveal-black-text.svg)
+
+---
+
+## Vertical Navigation Example
+
+This is a **horizontal slide**.
+
+### Vertical Slide 1
+
+Navigate using **↓ arrow**
+
+### Vertical Slide 2
+
+Vertical navigation implemented ✔
+
+---
+
+## Jekyll Overview
+
+Jekyll is a static site generator used by GitHub Pages.
+
+### Benefits
+
+- No database required  
+- Markdown support  
+- Layouts & themes  
+- Fast loading
+
+---
+
+## Technologies Used
+
+| Technology   | Purpose                |
+| ------------ | ---------------------- |
+| GitHub Pages | Hosting                |
+| Reveal.js    | Presentation framework |
+| Markdown     | Slide content          |
+| HTML         | Structure              |
+
+---
+
+## Conclusion
+
+This project demonstrates:
+
+- Reveal.js usage  
+- Markdown-based slides  
+- GitHub Pages deployment  
+- Horizontal & vertical navigation  
+- Non-default theme
+
+**Thank you!**
