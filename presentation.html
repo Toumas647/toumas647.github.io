@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Interactive Learning with Reveal.js</title>
+
+		<meta name="description" content="A presentation about creating interactive learning experiences">
+		<meta name="author" content="Trust Maramba">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Slide 1: Title Slide -->
+				<section data-markdown>
+					<script type="text/template">
+						# Interactive Learning with Reveal.js
+
+						## Creating Engaging Presentations
+
+						![Reveal.js Logo](https://static.slid.es/reveal/logo-v1/reveal-white-text.svg)
+
+						*By Trust Maramba*
+
+						---
+
+						Press the down arrow to explore more ⬇️
+					</script>
+				</section>
+
+				<!-- Slide 2: What is Reveal.js? (with vertical slides) -->
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## What is Reveal.js?
+
+							Reveal.js is an **open-source HTML presentation framework** that enables anyone with a web browser to create beautiful presentations for free.
+
+							### Key Features:
+							- 📱 Touch optimized
+							- 🎨 Multiple themes
+							- 📝 Markdown support
+							- 🎬 Auto-animations
+							- 📊 Code syntax highlighting
+
+							<small>Press ⬇️ to learn more about features</small>
+						</script>
+					</section>
+
+					<section data-markdown data-background="#283b95">
+						<script type="text/template">
+							## Nested Slides
+
+							Vertical slides are perfect for adding **additional detail** underneath a high-level horizontal slide.
+
+							This creates a **2D navigation** experience:
+							- Horizontal: Main topics
+							- Vertical: Deep dives
+
+							![Navigation](https://static.slid.es/reveal/arrow.png)
+						</script>
+					</section>
+
+					<section data-markdown data-background-gradient="linear-gradient(to bottom, #17b2c3, #283b95)">
+						<script type="text/template">
+							## Beautiful Backgrounds
+
+							You can customize slides with:
+							- Solid colors
+							- Gradients
+							- Images
+							- Videos
+							- Even GIFs!
+
+							<small>Press ⬆️ to go back up</small>
+						</script>
+					</section>
+				</section>
+
+				<!-- Slide 3: Creating Questions -->
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Creating Interactive Questions
+
+							Reveal.js can be enhanced with **quiz plugins** to create engaging learning experiences.
+
+							### Available Options:
+
+							1. **reveal.js-quiz** - Dynamic quizzes
+							2. **reveal.js-plugins** - Q&A and polls
+							3. **Quarto-Quiz** - For Quarto users
+							4. **ASQ** - Active learning framework
+
+							<small>Explore examples below ⬇️</small>
+						</script>
+					</section>
+
+					<section data-markdown data-background="#4d7e65">
+						<script type="text/template">
+							## Question Example
+
+							### What makes a good presentation?
+
+							**A)** Lots of text on every slide
+							**B)** Clear visuals and concise points ✓
+							**C)** Reading directly from slides
+							**D)** No images or graphics
+
+							---
+
+							**Answer: B** - Good presentations use visuals to support key points, not replace the speaker!
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Multiple Choice Questions
+
+							### Which features does Reveal.js support?
+
+							- [x] Markdown formatting
+							- [x] Code syntax highlighting
+							- [x] PDF export
+							- [x] Speaker notes
+							- [ ] Mind reading
+
+							---
+
+							**All except mind reading!** (Though it does have an extensive API)
+						</script>
+					</section>
+				</section>
+
+				<!-- Slide 4: Code Examples -->
+				<section data-markdown>
+					<script type="text/template">
+						## Code Highlighting
+
+						Reveal.js supports beautiful syntax highlighting for code:
+
+						```javascript
+						// Initialize Reveal.js
+						Reveal.initialize({
+						  controls: true,
+						  progress: true,
+						  center: true,
+						  hash: true,
+
+						  // Plugins
+						  plugins: [
+						    RevealMarkdown,
+						    RevealHighlight,
+						    RevealNotes
+						  ]
+						});
+						```
+
+						Perfect for **technical presentations** and **coding tutorials**!
+					</script>
+				</section>
+
+				<!-- Slide 5: Markdown Benefits -->
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Why Use Markdown?
+
+							Markdown makes content creation **fast and easy**:
+
+							| Feature | Benefit |
+							|---------|---------|
+							| Simple syntax | Quick to write |
+							| Readable | Easy to edit |
+							| Portable | Works everywhere |
+							| Version control | Git-friendly |
+
+							<small>See examples below ⬇️</small>
+						</script>
+					</section>
+
+					<section data-markdown data-background="https://static.slid.es/reveal/image-placeholder.png">
+						<script type="text/template">
+							## Markdown Syntax
+
+							```markdown
+							# Heading 1
+							## Heading 2
+
+							**Bold text**
+							*Italic text*
+
+							- Bullet point
+							- Another point
+
+							[Link](https://revealjs.com)
+
+							![Image](url.png)
+							```
+						</script>
+					</section>
+				</section>
+
+				<!-- Slide 6: Advanced Features -->
+				<section data-markdown data-background-gradient="linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+					<script type="text/template">
+						## Advanced Features
+
+						### Take Your Presentations Further
+
+						- 🎯 **Auto-Animate** - Smooth transitions
+						- 📱 **Touch Support** - Mobile friendly
+						- 🔍 **Zoom** - Focus on details
+						- 📄 **PDF Export** - Share easily
+						- 🎤 **Speaker View** - Notes and timer
+						- 🌐 **GitHub Pages** - Free hosting
+
+						---
+
+						### Resources
+						- [Documentation](https://revealjs.com)
+						- [GitHub Repository](https://github.com/hakimel/reveal.js)
+						- [Community Plugins](https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware)
+					</script>
+				</section>
+
+				<!-- Slide 7: Conclusion -->
+				<section data-markdown data-background="#1a1a1a">
+					<script type="text/template">
+						# Thank You! 🎉
+
+						## Start Creating Today
+
+						Reveal.js empowers you to create **stunning, interactive presentations** that engage your audience.
+
+						---
+
+						### Get Started:
+						1. Download from [revealjs.com](https://revealjs.com)
+						2. Edit the HTML/Markdown
+						3. Deploy to GitHub Pages
+						4. Share with the world!
+
+						---
+
+						**Questions?** Press `S` for speaker notes
+
+						<small>Press ESC for overview mode</small>
+					</script>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				controls: true,
+				progress: true,
+				center: true,
+				slideNumber: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
