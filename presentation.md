@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+---
+title: "GitHub Pages & Jekyll Presentation"
+format:
+  revealjs:
+    theme: moon
+    slide-number: true
+    center: true
+    controls: true
+    progress: true
+---
+
+>>>>>>> 233aa66449e7d9c7a777588cd0eaadfe651b986f
 # GitHub Pages & Jekyll
 
 ## Building Static Websites
@@ -8,10 +22,13 @@
 
 ---
 
+<<<<<<< HEAD
 Press → to continue
 
 ---
 
+=======
+>>>>>>> 233aa66449e7d9c7a777588cd0eaadfe651b986f
 ## What is GitHub Pages?
 
 **GitHub Pages** is a free hosting service that allows you to publish websites directly from your GitHub repository.
@@ -22,11 +39,15 @@ Press → to continue
 - 🔒 HTTPS support
 - 📝 Custom domains
 
+<<<<<<< HEAD
 <!-- .element: class="fragment" -->
 
 Note: Press down for more details
 
 --
+=======
+---
+>>>>>>> 233aa66449e7d9c7a777588cd0eaadfe651b986f
 
 ## How It Works
 
@@ -37,8 +58,11 @@ Note: Press down for more details
 
 ![GitHub Pages Settings](https://via.placeholder.com/600x300/4d7e65/ffffff?text=Static+Website)
 
+<<<<<<< HEAD
 <!-- .slide: data-background="#283b95" -->
 
+=======
+>>>>>>> 233aa66449e7d9c7a777588cd0eaadfe651b986f
 ---
 
 ## What is Jekyll?
@@ -51,7 +75,11 @@ Note: Press down for more details
 - 🎨 Themes & layouts
 - 🔧 Easy customization
 
+<<<<<<< HEAD
 --
+=======
+---
+>>>>>>> 233aa66449e7d9c7a777588cd0eaadfe651b986f
 
 ## Jekyll Themes
 
@@ -64,10 +92,16 @@ GitHub Pages supports **official Jekyll themes** that provide:
 
 ![Jekyll Theme Example](https://jekyllrb.com/img/octojekyll.png)
 
+<<<<<<< HEAD
 <!-- .slide: data-background="#4d7e65" -->
 
 --
 
+=======
+---
+
+```markdown
+>>>>>>> 233aa66449e7d9c7a777588cd0eaadfe651b986f
 ## Configuration
 
 Jekyll uses `_config.yml` for settings:
@@ -80,6 +114,7 @@ theme: jekyll-theme-slate
 
 # Build settings
 markdown: kramdown
+<<<<<<< HEAD
 ```
 
 Simple YAML configuration controls your entire site!
@@ -130,3 +165,5 @@ Simple HTML navigation links all pages:
 ![Navigation Example](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHoxxOvnTWZAUIMIfEZ2dYzkrbNgi_Ew65YQjtOlK-hU266QTn-rEl8vymN4YXr6RHAv0osVUJBKussw3UWf9l_0brqlL1_Y3cKxumH-UiYENdBsUii_Y2N3pr_oLILyiiHGkvmh1T9kTot1vOOtik6rAmy6QXhPxaxkq5Pt3qdeM3jwGmWkItOe65LA/s1280/Tabar%20Menu%20HTML%20CSS%20&%20JavaScript.jpg)
 
 <!-- .slide: data-background-gradient="linear-gradient(to bottom, #17b2c3, #283b95)" -->
+=======
+>>>>>>> 233aa66449e7d9c7a777588cd0eaadfe651b986f
