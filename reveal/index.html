@@ -32,14 +32,21 @@
     </div>
 
     <script type="module">
-      import Reveal from "https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.esm.js";
-      import Markdown from "https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.esm.js";
-      import Notes from "https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.esm.js";
+  import Reveal from "https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.esm.js";
+  import Markdown from "https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.esm.js";
+  import Notes from "https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.esm.js";
 
-      Reveal.initialize({
-        hash: true,
-        plugins: [Markdown, Notes],
-      });
-    </script>
+  Reveal.initialize({
+    hash: true,           // allows URL hash navigation
+    controls: true,       // shows arrows for navigation
+    progress: true,       // progress bar
+    slideNumber: true,    // shows slide numbers
+    center: true,         // vertical centering
+    touch: true,          // enable touch gestures
+    keyboard: true,       // enable keyboard arrows
+    mouseWheel: true,     // optional: mouse wheel navigation
+    plugins: [Markdown, Notes]
+  });
+</script>
   </body>
 </html>
